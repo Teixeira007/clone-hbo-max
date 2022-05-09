@@ -1,0 +1,176 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "gilory-medium" ;
+    src: url('/assets/fonts/Gilroy-Medium.ttf');
+    font-family: "gilory-bold";
+    src: url('/assets/fonts/Gilroy-Bold.ttf');
+}
+
+
+body{
+    font-size: 100%;
+    background-image: linear-gradient(to top, #000 10%, transparent);
+    z-index: 2; 
+    background: linear-gradient(180deg, rgba(22, 21, 21, 0) 0%, rgba(0, 0, 0, 0) 0%, #0B0A0A 78.9%);
+}
+.container{
+    padding: 3.1rem;
+    background-image: url('/assets/img/background.jpg');
+    background-repeat: no-repeat;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 1.25rem;
+    padding: 1.8rem;
+    background-color: rgb(0,0,0,0.4);
+    height: 5.12rem;
+    backdrop-filter: blur(8px);
+}
+
+.perfil-image{
+    width: 2.8rem;
+    height: 2.8rem;
+    border-radius: 50%;
+}
+
+.navigation{
+    display: flex;
+    gap: 3.12rem;
+}
+
+.navigation a{
+    color: #fff;
+    font-family: "gilory-medium";
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.43rem;
+}
+
+.container-main{
+    display: flex;
+    flex-direction: column;
+    gap: 3.75rem;
+    position: relative;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    padding-top: 4.18rem;
+    color: #fff;
+    gap: 1rem;
+}
+
+.info-time-and-date{
+    font-family: "gilory-medium";
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.26rem;
+}
+
+.info-title{
+    font-family: "gilory-bold";
+    font-size: 5rem;
+    line-height: 5.6rem;
+    font-weight: 400;
+    max-width: 35.93rem;
+}
+
+.info-genre{
+    font-family: "gilory-medium";
+    font-size: 1.87rem;
+    line-height: 2.18rem;
+    font-weight: 400;
+}
+
+
+.info-note-imdb{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.into-note-imdb span{
+    font-family: "gilory-medium";
+    font-size: 1.75rem;
+    line-height: 2rem;
+}
+
+.info-button-watch{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 10rem;
+    height: 3.3rem;
+    background-color: transparent;
+    border-radius: 0.625rem;
+    border: solid 0.06rem #fff;
+    color: #fff;
+    line-height: 1.3rem;
+    font-size: 1.12rem;
+    font-weight: 400;
+    font-family: "gilory-medium";
+}
+
+.popular-collections{
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    z-index: 1;
+}
+
+.sub-title{
+    font-family: "gilory-bold";
+    font-size: 1.87rem;
+    line-height: 2.18rem;
+    font-weight: 400;
+    color: #fff;
+}
+
+.popular-collections-image{
+    display: flex;
+    gap: 1.25rem;
+}
+
+.new-releases{
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    z-index: 1;
+}
+
+.new-releases-image{
+    display: flex;
+    gap: 1.25rem;
+}
+
+.visible-shadow{
+    background: linear-gradient(180deg, rgba(196, 196, 196, 0) 0%, rgba(0, 0, 0, 0) 0.01%, #0B0A0A 63.9%);
+    height: 69.3rem;
+    width: 94.5rem;
+    position: absolute;
+    top: 19.3rem;
+    left: 0;
+    z-index: 0;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
